@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>spoon-knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
-
 <body>
-
-<img src="forkit.gif" id="octocat" alt="" />
-
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
-<p>
-  Sean made a change
-</p>
-
+	<h1 style="color: green; font-size: 40px;" align="left"> Mind Circuit Training Institute - We don't just train people; we COACH, MENTOR, and BUILD PEOPLE ! </h1>
 </body>
 </html>
