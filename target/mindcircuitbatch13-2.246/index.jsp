@@ -1,5 +1,8 @@
 <html>
 <body>
-	<h1 style="color: green; font-size: 40px;" align="left"> Mind Circuit Training Institute - We don't just train people; we COACH, MENTOR, and BUILD PEOPLE ! </h1>
+<form action="Factorial.jsp">
+Enter a value for n: <input type="text" name="val">
+<input type="submit" value="Submit">
+</form>
 </body>
 </html>
