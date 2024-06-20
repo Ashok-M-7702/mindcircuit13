@@ -14,21 +14,7 @@
 
 	</properties>
 
-
-	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexusrepo</id>
-		    <url>http://18.209.33.206:8081/repository/batch13-repository-snapshots/</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexusrepo</id>
-		    <url>http://18.209.33.206:8081/repository/batch13-repository/</url>
-		</repository>
-  	</distributionManagement>
-	
-    
-    <build>
+	<build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
