@@ -10,9 +10,21 @@
 
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://34.236.255.6:9000/</sonar.host.url>
+		<sonar.host.url>http://3.237.63.45:9000/</sonar.host.url>
 
 	</properties>
+
+	 <distributionManagement>
+		 <snapshotRepository>
+		    <id>NexusRepo</id>
+		    <url>http://3.236.189.210:8081/repository/ashok13-snapshots/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>NexusRepo</id>
+		    <url>http://3.236.189.210:8081/repository/ashok13-release/</url>
+		</repository>
+  	</distributionManagement>
 
 	<build>
         <plugins>
