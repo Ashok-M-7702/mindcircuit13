@@ -1,11 +1,15 @@
-##artifact build stage
-FROM maven AS buildstage
+multistage Dockerfile
+
+#BUILD STAGE1
+
+FROM maven as buildstage
 RUN mkdir /opt/mindcircuit13
 WORKDIR /opt/mindcircuit13
 COPY . .
-RUN mvn clean install    ## artifact -- .war
+RUN mvn clean install  #Generate artifact in this stage-- .war
 
-### tomcat deploy stage
+#BUILD STAGE2
+
 FROM tomcat
 WORKDIR webapps
 COPY --from=buildstage /opt/mindcircuit13/target/*.war .
