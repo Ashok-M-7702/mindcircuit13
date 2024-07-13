@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: pythonapp
-        image: devopshubg333/batch12:webapp1
+        image: devopshubg333/batch12:pythonflaskapp
         ports:
         - containerPort: 8080
