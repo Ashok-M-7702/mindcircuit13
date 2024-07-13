@@ -1,6 +1,6 @@
 ---
 apiVersion: apps/v1
-kind: Deploymenthttps://github.com/Ashok-M-7702/mindcircuit13/blob/main/deploymentfiles/deployment.yml
+kind: Deployment
 metadata:
   name: pythonapp
   labels:
@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: pythonapp
-        image: chary7702/batch13:tomcatimage
+        image: devopshubg333/batch12:mindcircuit
         ports:
         - containerPort: 8080
