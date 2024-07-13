@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: pythonapp
-        image: chary7702/batch13:pythonflaskapp
+        image: chary7702/batch13:nodejs
         ports:
         - containerPort: 8080
