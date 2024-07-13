@@ -2,21 +2,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Pythonapp
+  name: pythonapp
   labels:
-    app: Pythonapp
+    app: pythonapp
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: Pythonapp
+      app: pythonapp
   template:
     metadata:
       labels:
-        app: Pythonapp
+        app: pythonapp
     spec:
       containers:
-      - name: Pythonapp
+      - name: pythonapp
         image: chary7702/batch13:pythonflaskapp
         ports:
         - containerPort: 8080
