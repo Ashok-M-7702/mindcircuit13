@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: pythonapp
-        image: devopshubg333/batch12:mindcircuit
+        image: chary7702/batch13:123
         ports:
         - containerPort: 8080
